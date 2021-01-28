@@ -1,0 +1,54 @@
+.titulo_principal {
+    padding-left: 20px;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.texto_centralizado{
+    text-align: center;
+}
+
+/*
+# -> Identificador id=
+. -> Identificador class
+*/
+#missao{
+    font-size: 20px;
+}
+
+/*Todas as tags strong dentro das tags em*/
+em strong{
+    color: red;
+}
+
+/*
+Sempre quando se é adicionado uma linha de texto no HTML, mesmo que este texto não ocupe a linha inteira, o resto do
+espaço é bloqueado, para este fenômeno usamos o termo "block". Existem dois tipos de conteúdo o "block" como vimos e o
+"inline" que em vez de bloquear o espaço em branco ele o deixa livre, assim não havendo separação de conteúdo.
+
+Exp: Se um texto junto a uma img é adicionado com display inline-block, o texto e a imagem ficaram lado-a-lado.
+*/
+.itens {
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.beneficios {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.imgBene {
+    width: 50%;
+}
